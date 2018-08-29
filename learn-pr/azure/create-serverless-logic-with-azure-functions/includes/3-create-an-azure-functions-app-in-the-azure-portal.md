@@ -1,0 +1,12 @@
+Está pronto para começar a implementar o serviço de temperatura. Na unidade anterior, determinou que uma solução sem servidor se adequaria melhor às suas necessidades. Para implementar uma função do Azure sem servidor, esta tem de ter um local de alojamento. Esse local é uma aplicação de funções do Azure.
+
+## <a name="azure-function-app-overview"></a>Descrição geral da aplicação de funções do Azure
+As funções do Azure são alojadas num contentor denominado aplicação de funções. As aplicações de funções são definidas no Azure para agrupar e estruturar as suas funções de forma lógica. As aplicações de funções são um recurso de computação no Azure. No nosso exemplo de elevador, deve criar uma aplicação de funções para alojar o serviço de temperatura da engrenagem das escadas rolantes. Existem algumas decisões que têm de ser tomadas para criar a aplicação de funções: tem de escolher um plano de serviço e selecionar uma conta de armazenamento compatível.
+
+### <a name="choosing-a-service-plan"></a>Escolher um plano de serviço
+As aplicações de funções podem utilizar um de dois tipos de planos de serviço. O primeiro é o plano de serviço Consumo. Este é o plano que seleciona quando está a utilizar a plataforma de aplicações sem servidor do Azure. O plano de serviço Consumo fornece dimensionamento automático e cobra-lhe quando as funções estiverem em execução. O plano Consumo inclui um período de tempo limite configurável para a execução de uma função. Por predefinição, o período é de 5 minutos, mas pode ser configurado para um máximo de 10 minutos. 
+
+O segundo é o plano Serviço de Aplicações do Azure. Este plano permite-lhe executar a sua função numa VM de forma contínua. Deve escolher esta opção se as suas funções forem utilizadas de forma contínua ou exigirem mais capacidade de processamento ou tempo de execução do que o plano Consumo consegue fornecer. 
+
+### <a name="storage-account-requirements"></a>Requisitos da conta de armazenamento
+Quando cria uma aplicação de funções, esta é normalmente associada a uma conta de armazenamento compatível com o armazenamento de Blobs, Filas e Tabelas do Azure. A aplicação de funções utiliza esta conta de armazenamento para operações internas como o registo de execuções de função e a gestão de acionadores de execução. Também é no plano de serviço Consumo que o código da função do Azure e os ficheiros de configuração são armazenados. 

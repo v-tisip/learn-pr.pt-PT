@@ -1,0 +1,25 @@
+### YamlMime:LearningPath
+uid: learn.deploy-a-website-to-azure-with-vm-hosting
+title: Implementar um site para o Azure com Alojamento de Máquina Virtual
+summary: Se os seus requisitos de alojamento na Web não forem suportados pela plataforma da aplicação Web do Azure, pode tirar partido de máquinas virtuais para personalizar e controlar todos os aspetos do servidor Web. Saiba como criar, configurar e gerir máquinas virtuais que alojam aplicações Web no Linux e Windows.
+cardDescription: Se os seus requisitos de alojamento na Web não forem suportados pela plataforma da aplicação Web do Azure, pode tirar partido de máquinas virtuais para personalizar e controlar todos os aspetos do servidor Web. Saiba como criar, configurar e gerir máquinas virtuais que alojam aplicações Web no Linux e Windows.
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- developer
+products:
+- Azure
+prerequisites: Nenhuma
+metadata:
+  title: Implementar um site para o Azure com Alojamento de Máquina Virtual
+  description: As aplicações Web no Azure permitem-lhe publicar e gerir o seu site facilmente sem ter de trabalhar com os ativos de rede, armazenamento ou servidores subjacentes. Em vez disso, pode focar-se nas funcionalidades do seu site e depender da plataforma avançada do Azure para fornecer acesso seguro ao seu site.
+  ms.openlocfilehash: 379e583f3b2b92d0983506d421364dc37747bb7e
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40446483"
+modules:
+- learn.manage-vms-with-azure-cli
+achievement: learn.deploy-a-website-to-azure-with-vm-hosting.trophy

@@ -1,0 +1,56 @@
+### YamlMime:ModuleUnit
+uid: principles-cloud-computing.6-knowledge-check
+metadata:
+  title: Verifique o seu conhecimento
+  description: Verifique o seu conhecimento
+  displayType: one-column
+  ms.openlocfilehash: d578a28cd23b3be60038cabb5fb899c0344219ad
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40442667"
+title: Verifique o seu conhecimento
+durationInMinutes: 10
+content: O conteúdo é obrigatório
+quiz:
+  title: Verificação de conhecimento
+  questions:
+  - content: 'Verdadeiro ou falso: quando utiliza um fornecedor de cloud pública como o Azure, tem de pagar o custo total do hardware físico com antecedência?'
+    choices:
+    - content: Verdadeiro
+      incorrectExplanation: O Azure suporta um modelo de preços pay as you go. Isto significa que aluga o hardware e paga apenas pelos recursos que utilizar.
+      isCorrect: false
+    - content: Falso
+      correctExplanation: O Azure suporta um modelo de preços pay as you go. Isto significa que aluga o hardware e paga apenas pelos recursos que utilizar.
+      isCorrect: true
+  - content: Suponha que o seu site registou um pico de tráfego durante a noite. Quando utiliza um fornecedor de cloud pública como o Azure, é possível que o seu site não tenha passado por nenhum período de indisponibilidade porque dimensionou automaticamente os seus recursos.
+    choices:
+    - content: Verdadeiro
+      correctExplanation: A informática na cloud é considerada elástica. Isto significa que os recursos podem ser alocados ou desalocados automaticamente com base na procura.
+      isCorrect: true
+    - content: Falso
+      incorrectExplanation: A informática na cloud é considerada elástica. Isto significa que os recursos podem ser alocados ou desalocados automaticamente com base na procura.
+      isCorrect: false
+  - content: Suponha que está a mover para a cloud e quer escalabilidade elevada, hardware alugado e que a segurança não é uma grande preocupação. Que modelo de implementação na cloud é o mais adequado?
+    choices:
+    - content: Cloud pública
+      correctExplanation: Uma cloud pública é detida e operada por um fornecedor de cloud de terceiros, que oferece os benefícios da escalabilidade e do hardware alugado. Uma vez que o hardware não é propriedade sua, não pode controlar quem tem acesso físico ao mesmo.
+      isCorrect: true
+    - content: Cloud privada
+      incorrectExplanation: Um dos principais motivos para escolher uma cloud privada é a segurança. Com uma cloud privada, o hardware é, por norma, detido e operado no local.
+      isCorrect: false
+    - content: Cloud híbrida
+      incorrectExplanation: Uma cloud híbrida combina as características de uma cloud pública e privada. Como a segurança não é uma questão que o preocupe, não precisa de mover nada para a cloud privada.
+      isCorrect: false
+  - content: Suponha que está a criar uma aplicação e que quer disponibilizá-la aos seus utilizadores o mais rapidamente possível. Não quer ter de se preocupar com a gestão do hardware ou software subjacente. Só quer concentrar-se na criação, teste e implementação. Que tipo de serviço cloud é melhor para si?
+    choices:
+    - content: Infraestrutura como um serviço
+      incorrectExplanation: Com a infraestrutura como um serviço, é responsável pela gestão do hardware e software. Isto inclui tarefas como realizar atualizações de sistema em máquinas virtuais.
+      isCorrect: false
+    - content: Plataforma como um serviço
+      correctExplanation: O objetivo da plataforma como um serviço consiste em ajudá-lo a criar uma aplicação o mais rapidamente possível. As tarefas de gestão de TI ficam a cargo de outros, para que possa concentrar-se em escrever código.
+      isCorrect: true
+    - content: Software como um serviço
+      incorrectExplanation: Com o software como um serviço, utilizará uma aplicação existente através de um browser ou aplicação de software.
+      isCorrect: false

@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn.align-requirements-in-azure.3-public-private-hybrid-quiz
+title: Confirmação de conhecimentos – compreender as soluções do Azure para a cloud pública, privada e híbrida
+metadata:
+  title: Confirmação de conhecimentos – compreender as soluções do Azure para a cloud pública, privada e híbrida
+  description: Confirmação de conhecimentos – compreender as soluções do Azure para a cloud pública, privada e híbrida
+  ms.openlocfilehash: 2ae34e628e7e20c933856b09a9a813e40788adbc
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40442326"
+durationInMinutes: 10
+content: Confirmação de conhecimentos – compreender as soluções do Azure para a cloud pública, privada e híbrida
+quiz:
+  title: Soluções do Azure para a cloud pública, privada e híbrida
+  questions:
+  - content: Tendo em conta a seguinte situação, qual é o melhor modelo de implementação de cloud? É necessária uma base de dados do SQL Server para um projeto de curto prazo. O departamento de TI não tem hardware disponível que cumpra os requisitos de desempenho ou recursos para a implementar. O projeto tem início na próxima semana. A base de dados deixa de ser necessária após a conclusão do projeto.
+    choices:
+    - content: Cloud pública
+      correctExplanation: Devido à urgência e ao ciclo de vida da base de dados do SQL, a cloud pública é a melhor opção.
+      isCorrect: true
+    - content: Cloud privada
+      incorrectExplanation: O departamento de TI não tem recursos para implementar um SQL Server.
+      isCorrect: false
+    - content: Cloud híbrida
+      incorrectExplanation: A cloud híbrida poderá ser uma opção. No entanto, não é obrigatoriamente necessária a existência de uma ligação entre clouds privadas e públicas.
+      isCorrect: false
+  - content: Tendo em conta a seguinte situação, qual é o melhor modelo de implementação de cloud? Pode criar várias máquinas virtuais na cloud. As VMs estão ligadas entre si com uma rede virtual. As VMs têm acesso a ficheiros de imagem de raio X no armazenamento na cloud. Uma das VMs é um servidor Web que aloja um Web site exposto à Internet para os clientes acederem aos respetivos registos. Há uma VPN que liga a solução ao seu datacenter no local para as informações de cliente serem apresentadas com os ficheiros de imagem.
+    choices:
+    - content: Cloud pública
+      incorrectExplanation: Devido à ligação ao datacenter no local, não se trata de uma implementação de cloud pública.
+      isCorrect: false
+    - content: Cloud privada
+      incorrectExplanation: Devido às máquinas virtuais e à rede na cloud pública, não se trata de uma implementação de cloud privada.
+      isCorrect: false
+    - content: Cloud híbrida
+      correctExplanation: Neste caso, utiliza-se a cloud pública e privada com uma ligação entre as duas. Portanto, trata-se de uma implementação de cloud híbrida.
+      isCorrect: true
+  - content: Tendo em conta a seguinte situação, qual é o modelo de implementação de cloud? Tem dois datacenters na sua organização. Um datacenter tem uma base de dados que só pode residir num dos datacenters devido a um requisito regulamentar. Quer aceder à base de dados a partir do outro datacenter. Cria uma VPN através de um fornecedor de cloud para ligar os dois datacenters.
+    choices:
+    - content: Cloud pública
+      incorrectExplanation: Devido aos dois datacenters privados, não se trata de uma implementação de cloud pública.
+      isCorrect: false
+    - content: Cloud privada
+      correctExplanation: A VPN é um recurso de cloud pública. No entanto, como a VPN é uma ligação privada entre dois datacenters privados, trata-se de uma implementação de cloud privada.
+      isCorrect: true
+    - content: Cloud híbrida
+      correctExplanation: A VPN é um recurso de cloud pública e os datacenters são privados. No entanto, como a VPN só estabelece ligação a dois datacenters privados (não à cloud pública), não se trata de uma implementação de cloud híbrida.
+      isCorrect: false

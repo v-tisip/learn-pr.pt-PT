@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-data-in-azure.5-knowledge-check
+metadata:
+  title: Verificação de conhecimento
+  description: Verificação de conhecimento.
+  displayType: one-column
+  ms.openlocfilehash: 8e63c9e7886d767824571f78eda178b9bdfd65f3
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40445140"
+title: Verificação de conhecimento
+durationInMinutes: 11
+content: Verificação de conhecimento
+quiz:
+  title: Verificação de conhecimento
+  questions:
+  - content: O portal de aprendizagem online tem de manter um registo do endereço físico de cada utilizador e do respetivo endereço de e-mail. Que funcionalidades do Azure também lhe permitem gerir estas informações?
+    choices:
+    - content: Arquivo do Azure
+      isCorrect: false
+      incorrectExplanation: O Arquivo do Azure é ideal para armazenar as versões mais antigas dos seus dados, para que possa obtê-los como e quando for preciso para auditorias ou outras atividades pouco frequentes.
+    - content: SQL do Azure
+      isCorrect: true
+      correctExplanation: Correto! O SQL do Azure ajuda a armazenar dados relacionais e a obter os dados rapidamente com consultas eficientes.
+    - content: Ficheiros do Azure
+      isCorrect: false
+      incorrectExplanation: Os Ficheiros do Azure são utilizados para partilhas de ficheiros na cloud. Podem ser montadas em simultâneo por implementações na cloud ou no local do Windows, Linux e macOS.
+  - content: Os ficheiros de simulação utilizados pelos portais de aprendizagem de vendas podem crescer para um tamanho de ficheiros significativamente grande. De que forma o Azure suporta estes ficheiros?
+    choices:
+    - content: O armazenamento de Blobs do Azure pode suportar ficheiros até 8 TB de tamanho
+      isCorrect: true
+      correctExplanation: Correto! O armazenamento de Blobs do Azure permite armazenar e transmitir ficheiros de vídeo ou áudio grandes diretamente no browser a partir de qualquer lugar do mundo.
+    - content: Os Ficheiros do Azure podem suportar o armazenamento e a transmissão de ficheiros grandes
+      isCorrect: false
+      incorrectExplanation: Os Ficheiros do Azure são utilizados para partilhas de ficheiros na cloud. Podem ser montadas em simultâneo por implementações na cloud ou no local do Windows, Linux e macOS.
+    - content: O Azure não suporta o armazenamento e a transmissão de ficheiros grandes
+      isCorrect: false
+      incorrectExplanation: O Azure permite armazenar e transmitir ficheiros de vídeo e áudio grandes diretamente no browser a partir de qualquer lugar do mundo.
+  - content: De que forma o Azure suporta a durabilidade e fiabilidade dos dados?
+    choices:
+    - content: Através das capacidades de replicação do Azure.
+      isCorrect: true
+      correctExplanation: Correto! O Azure fornece capacidades de replicação para proteger os dados de desastres naturais e suporta encriptação para proteger os dados de ataques maliciosos.
+    - content: Precisa de suporte premium adicional para encriptar e desencriptar os dados e a fiabilidade é suportada por funcionalidades de cópia de segurança de terceiros
+      isCorrect: false
+      incorrectExplanation: Não precisa de suporte adicional; o Azure tem capacidades para proteger os seus dados de quaisquer ameaças e riscos imprevistos.
+    - content: O Azure não tem funcionalidades de redundância e encriptação incorporadas.
+      isCorrect: false
+      incorrectExplanation: O Azure tem funcionalidades incorporadas para proteger os seus dados de riscos e ameaças.

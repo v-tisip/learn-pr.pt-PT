@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-service-identity
+title: Autenticação do cofre com a Identidade de Serviço Gerida
+metadata:
+  title: Autenticação do cofre com a Identidade de Serviço Gerida
+  description: Autenticação do cofre com a Identidade de Serviço Gerida
+  ms.openlocfilehash: 1fc1fc3b0742748a11ab9527784d08abd5fc5c2c
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40445781"
+durationInMinutes: 2
+content: >
+  [!include[](includes/4-authentication-with-managed-service-identity.md)]
+quiz:
+  title: 'Verificação de conhecimento: Identidade de Serviço Gerida'
+  questions:
+  - content: Como é que a utilização do MSI (Identidade de Serviço Gerida) altera a forma como uma aplicação autentica para o Azure Key Vault?
+    choices:
+    - content: A aplicação utiliza um certificado para autenticar em vez de um segredo.
+      isCorrect: false
+      incorrectExplanation: As aplicações *podem* utilizar segredos ou certificados para obter os tokens de autenticação do Azure Active Directory, mas com o MSI não precisam de o fazer.
+    - content: Cada utilizador da aplicação tem de introduzir uma palavra-passe.
+      isCorrect: false
+      incorrectExplanation: É a *aplicação* que autentica para o Key Vault e não os utilizadores individuais da aplicação. A utilização do MSI não influencia o facto de a sua aplicação exigir ou não autenticação dos seus utilizadores.
+    - content: A aplicação obtém os tokens a partir de um serviço de token com tecnologia do MSI em vez de a partir do Azure Active Directory.
+      isCorrect: true
+      correctExplanation: O serviço de token do MSI obtém tokens do Azure Active Directory em nome da aplicação e permite à aplicação autenticar com um segredo injetado nas suas variáveis de ambiente.
+    - content: As identidades MSI são geridas pelo Key Vault e são reconhecidas e autenticadas automaticamente.
+      isCorrect: false
+      incorrectExplanation: O Key Vault não controla nem gere identidades. As identidades existem no Azure Active Directory.
+  - content: Qual destas afirmações descreve uma das principais vantagens em utilizar o MSI para autenticar uma aplicação para o Key Vault?
+    choices:
+    - content: O MSI melhora o desempenho das aplicações.
+      isCorrect: false
+      incorrectExplanation: O MSI não tem efeito no desempenho da sua aplicação.
+    - content: O MSI elimina a necessidade de processar segredos na configuração.
+      isCorrect: true
+      correctExplanation: A aplicação autentica para o serviço de token do MSI com um segredo injetado nas suas variáveis de ambiente no runtime, eliminando a necessidade de armazenar segredos na configuração.
+    - content: As identidades MSI recebem permissões para o Key Vault automaticamente.
+      isCorrect: false
+      incorrectExplanation: Todas as identidades, incluindo as identidades do MSI, devem receber permissões explícitas num cofre.
+    - content: O MSI torna mais fácil selecionar palavras-passe para serviços remotos.
+      isCorrect: false
+      incorrectExplanation: O MSI não tem efeito nos seus segredos ou fluxos de trabalho de autenticação com serviços remotos. O MSI só influencia a forma como a aplicação efetua a autenticação para o Key Vault.
