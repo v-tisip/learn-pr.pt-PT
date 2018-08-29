@@ -1,0 +1,33 @@
+### YamlMime:Module
+uid: execute-azure-function-with-triggers
+metadata:
+  title: Executar uma Função do Azure com acionadores
+  description: Um acionador é responsável pela execução de uma Função do Azure e existem dezenas à escolha. Este módulo mostra-lhe alguns dos tipos de acionadores mais comuns e como configurá-los para executar lógica.
+  ms.openlocfilehash: 07c55c8d17789023997084de7886f28f611fb530
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40445404"
+title: Executar uma Função do Azure com acionadores
+summary: Crie uma Função do Azure que seja invocada a partir de tipos de acionadores comuns.
+abstract: Um acionador é responsável pela execução de uma Função do Azure e existem dezenas à escolha. Este módulo mostra-lhe alguns dos tipos de acionadores mais comuns e como configurá-los para executar lógica.
+cardDescription: Crie uma Função do Azure que seja invocada a partir de tipos de acionadores comuns.
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- developer
+products:
+- Azure
+units:
+- execute-azure-function-with-triggers.1-introduction
+- execute-azure-function-with-triggers.2-determine-best-trigger
+- execute-azure-function-with-triggers.3-timer-trigger
+- execute-azure-function-with-triggers.4-exercise-timer-trigger
+- execute-azure-function-with-triggers.5-http-trigger
+- execute-azure-function-with-triggers.6-exercise-http-trigger
+- execute-azure-function-with-triggers.7-blob-trigger
+- execute-azure-function-with-triggers.8-exercise-blob-trigger
+- execute-azure-function-with-triggers.9-summary
+achievement: learn.placeholder.badge

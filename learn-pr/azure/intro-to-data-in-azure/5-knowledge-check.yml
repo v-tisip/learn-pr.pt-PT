@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-data-in-azure.5-knowledge-check
+metadata:
+  title: <span data-ttu-id="e7942-101">Verificação de conhecimento</span><span class="sxs-lookup"><span data-stu-id="e7942-101">Knowledge check</span></span>
+  description: <span data-ttu-id="e7942-102">Verificação de conhecimento.</span><span class="sxs-lookup"><span data-stu-id="e7942-102">Knowledge check.</span></span>
+  displayType: one-column
+  ms.openlocfilehash: 8e63c9e7886d767824571f78eda178b9bdfd65f3
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40445140"
+title: <span data-ttu-id="e7942-103">Verificação de conhecimento</span><span class="sxs-lookup"><span data-stu-id="e7942-103">Knowledge check</span></span>
+durationInMinutes: 11
+content: <span data-ttu-id="e7942-104">Verificação de conhecimento</span><span class="sxs-lookup"><span data-stu-id="e7942-104">Knowledge check</span></span>
+quiz:
+  title: <span data-ttu-id="e7942-105">Verificação de conhecimento</span><span class="sxs-lookup"><span data-stu-id="e7942-105">Knowledge check</span></span>
+  questions:
+  - content: <span data-ttu-id="e7942-106">O portal de aprendizagem online tem de manter um registo do endereço físico de cada utilizador e do respetivo endereço de e-mail.</span><span class="sxs-lookup"><span data-stu-id="e7942-106">Your online learning portal needs to keep a record of each user's physical address and their email address.</span></span> <span data-ttu-id="e7942-107">Que funcionalidades do Azure também lhe permitem gerir estas informações?</span><span class="sxs-lookup"><span data-stu-id="e7942-107">Which Azure features will let you manage this information well?</span></span>
+    choices:
+    - content: <span data-ttu-id="e7942-108">Arquivo do Azure</span><span class="sxs-lookup"><span data-stu-id="e7942-108">Azure Archive</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="e7942-109">O Arquivo do Azure é ideal para armazenar as versões mais antigas dos seus dados, para que possa obtê-los como e quando for preciso para auditorias ou outras atividades pouco frequentes.</span><span class="sxs-lookup"><span data-stu-id="e7942-109">Azure Archive is ideal to store older versions of your data so that you can retrieve it as and when required for auditing or other infrequent activities.</span></span>
+    - content: <span data-ttu-id="e7942-110">SQL do Azure</span><span class="sxs-lookup"><span data-stu-id="e7942-110">Azure SQL</span></span>
+      isCorrect: true
+      correctExplanation: <span data-ttu-id="e7942-111">Correto!</span><span class="sxs-lookup"><span data-stu-id="e7942-111">Correct!</span></span> <span data-ttu-id="e7942-112">O SQL do Azure ajuda a armazenar dados relacionais e a obter os dados rapidamente com consultas eficientes.</span><span class="sxs-lookup"><span data-stu-id="e7942-112">Azure SQL helps store relational data and retrieves the data quickly with powerful queries.</span></span>
+    - content: <span data-ttu-id="e7942-113">Ficheiros do Azure</span><span class="sxs-lookup"><span data-stu-id="e7942-113">Azure Files</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="e7942-114">Os Ficheiros do Azure são utilizados para partilhas de ficheiros na cloud.</span><span class="sxs-lookup"><span data-stu-id="e7942-114">Azure Files is used for file shares in the cloud.</span></span> <span data-ttu-id="e7942-115">Podem ser montadas em simultâneo por implementações na cloud ou no local do Windows, Linux e macOS.</span><span class="sxs-lookup"><span data-stu-id="e7942-115">It can be mounted concurrently by cloud or on-premises deployments of Windows, Linux, and macOS.</span></span>
+  - content: <span data-ttu-id="e7942-116">Os ficheiros de simulação utilizados pelos portais de aprendizagem de vendas podem crescer para um tamanho de ficheiros significativamente grande.</span><span class="sxs-lookup"><span data-stu-id="e7942-116">The simulation files used by the sales learning portals can grow to significantly large file size.</span></span> <span data-ttu-id="e7942-117">De que forma o Azure suporta estes ficheiros?</span><span class="sxs-lookup"><span data-stu-id="e7942-117">How will Azure support these files?</span></span>
+    choices:
+    - content: <span data-ttu-id="e7942-118">O armazenamento de Blobs do Azure pode suportar ficheiros até 8 TB de tamanho</span><span class="sxs-lookup"><span data-stu-id="e7942-118">Azure Blob storage can support files up to 8TB in size</span></span>
+      isCorrect: true
+      correctExplanation: <span data-ttu-id="e7942-119">Correto!</span><span class="sxs-lookup"><span data-stu-id="e7942-119">Correct!</span></span> <span data-ttu-id="e7942-120">O armazenamento de Blobs do Azure permite armazenar e transmitir ficheiros de vídeo ou áudio grandes diretamente no browser a partir de qualquer lugar do mundo.</span><span class="sxs-lookup"><span data-stu-id="e7942-120">Azure Blob storage provides the ability to store and stream large video or audio files directly to the browser from anywhere in the world.</span></span>
+    - content: <span data-ttu-id="e7942-121">Os Ficheiros do Azure podem suportar o armazenamento e a transmissão de ficheiros grandes</span><span class="sxs-lookup"><span data-stu-id="e7942-121">Azure Files can support storing and streaming large files</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="e7942-122">Os Ficheiros do Azure são utilizados para partilhas de ficheiros na cloud.</span><span class="sxs-lookup"><span data-stu-id="e7942-122">Azure Files is used for file shares in the cloud.</span></span> <span data-ttu-id="e7942-123">Podem ser montadas em simultâneo por implementações na cloud ou no local do Windows, Linux e macOS.</span><span class="sxs-lookup"><span data-stu-id="e7942-123">It can be mounted concurrently by cloud or on-premises deployments of Windows, Linux, and macOS.</span></span>
+    - content: <span data-ttu-id="e7942-124">O Azure não suporta o armazenamento e a transmissão de ficheiros grandes</span><span class="sxs-lookup"><span data-stu-id="e7942-124">Azure does not support storing and streaming large files</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="e7942-125">O Azure permite armazenar e transmitir ficheiros de vídeo e áudio grandes diretamente no browser a partir de qualquer lugar do mundo.</span><span class="sxs-lookup"><span data-stu-id="e7942-125">Azure does have the ability to store and stream large video and audio files directly to the browser from anywhere in the world.</span></span>
+  - content: <span data-ttu-id="e7942-126">De que forma o Azure suporta a durabilidade e fiabilidade dos dados?</span><span class="sxs-lookup"><span data-stu-id="e7942-126">How does Azure support durability and reliability of data?</span></span>
+    choices:
+    - content: <span data-ttu-id="e7942-127">Através das capacidades de replicação do Azure.</span><span class="sxs-lookup"><span data-stu-id="e7942-127">Through Azure replication capabilities.</span></span>
+      isCorrect: true
+      correctExplanation: <span data-ttu-id="e7942-128">Correto!</span><span class="sxs-lookup"><span data-stu-id="e7942-128">Correct!</span></span> <span data-ttu-id="e7942-129">O Azure fornece capacidades de replicação para proteger os dados de desastres naturais e suporta encriptação para proteger os dados de ataques maliciosos.</span><span class="sxs-lookup"><span data-stu-id="e7942-129">Azure provides replication capabilities to protect the data against natural disasters and supports encryption to protect the data against malicious attacks.</span></span>
+    - content: <span data-ttu-id="e7942-130">Precisa de suporte premium adicional para encriptar e desencriptar os dados e a fiabilidade é suportada por funcionalidades de cópia de segurança de terceiros</span><span class="sxs-lookup"><span data-stu-id="e7942-130">You need additional premium support to encrypt and decrypt your data and reliability is supported by third-party backup features</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="e7942-131">Não precisa de suporte adicional; o Azure tem capacidades para proteger os seus dados de quaisquer ameaças e riscos imprevistos.</span><span class="sxs-lookup"><span data-stu-id="e7942-131">You don't need any additional support; Azure has the capabilities to protect your data against any unforeseen risks and threats.</span></span>
+    - content: <span data-ttu-id="e7942-132">O Azure não tem funcionalidades de redundância e encriptação incorporadas.</span><span class="sxs-lookup"><span data-stu-id="e7942-132">Azure does not have in-built redundancy and encryption features.</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="e7942-133">O Azure tem funcionalidades incorporadas para proteger os seus dados de riscos e ameaças.</span><span class="sxs-lookup"><span data-stu-id="e7942-133">Azure comes with in-built capabilities to protect your data against risks and threats.</span></span>

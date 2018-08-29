@@ -1,0 +1,1 @@
+<span data-ttu-id="b2139-101">Para relembrar o que aprendeu, veja estes dois cenários com a equipa de astronomia e responda às perguntas associadas.</span><span class="sxs-lookup"><span data-stu-id="b2139-101">To help you remember what you've learned, read the two scenarios involving the astronomy team and answer the associated questions.</span></span>

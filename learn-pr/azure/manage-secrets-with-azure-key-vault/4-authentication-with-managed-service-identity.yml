@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-service-identity
+title: <span data-ttu-id="f3295-101">Autenticação do cofre com a Identidade de Serviço Gerida</span><span class="sxs-lookup"><span data-stu-id="f3295-101">Vault authentication with Managed Service Identity</span></span>
+metadata:
+  title: <span data-ttu-id="f3295-102">Autenticação do cofre com a Identidade de Serviço Gerida</span><span class="sxs-lookup"><span data-stu-id="f3295-102">Vault authentication with Managed Service Identity</span></span>
+  description: <span data-ttu-id="f3295-103">Autenticação do cofre com a Identidade de Serviço Gerida</span><span class="sxs-lookup"><span data-stu-id="f3295-103">Vault authentication with Managed Service Identity</span></span>
+  ms.openlocfilehash: 1fc1fc3b0742748a11ab9527784d08abd5fc5c2c
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40445781"
+durationInMinutes: 2
+content: >
+  [!include[](includes/4-authentication-with-managed-service-identity.md)]
+quiz:
+  title: '<span data-ttu-id="f3295-104">Verificação de conhecimento: Identidade de Serviço Gerida</span><span class="sxs-lookup"><span data-stu-id="f3295-104">Knowledge check: Managed Service Identity</span></span>'
+  questions:
+  - content: <span data-ttu-id="f3295-105">Como é que a utilização do MSI (Identidade de Serviço Gerida) altera a forma como uma aplicação autentica para o Azure Key Vault?</span><span class="sxs-lookup"><span data-stu-id="f3295-105">How does using Managed Service Identity (MSI) change the way an app authenticates to Azure Key Vault?</span></span>
+    choices:
+    - content: <span data-ttu-id="f3295-106">A aplicação utiliza um certificado para autenticar em vez de um segredo.</span><span class="sxs-lookup"><span data-stu-id="f3295-106">The app uses a certificate to authenticate instead of a secret.</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="f3295-107">As aplicações *podem* utilizar segredos ou certificados para obter os tokens de autenticação do Azure Active Directory, mas com o MSI não precisam de o fazer.</span><span class="sxs-lookup"><span data-stu-id="f3295-107">Apps *can* use secrets or certificates to get authentication tokens from Azure Active Directory, but with MSI they don't have to.</span></span>
+    - content: <span data-ttu-id="f3295-108">Cada utilizador da aplicação tem de introduzir uma palavra-passe.</span><span class="sxs-lookup"><span data-stu-id="f3295-108">Each user of the app must enter a password.</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="f3295-109">É a *aplicação* que autentica para o Key Vault e não os utilizadores individuais da aplicação.</span><span class="sxs-lookup"><span data-stu-id="f3295-109">It is the *app* that authenticates to Key Vault, not individual users of the app.</span></span> <span data-ttu-id="f3295-110">A utilização do MSI não influencia o facto de a sua aplicação exigir ou não autenticação dos seus utilizadores.</span><span class="sxs-lookup"><span data-stu-id="f3295-110">Use of MSI does not impact whether or not your app requires authentication from your users.</span></span>
+    - content: <span data-ttu-id="f3295-111">A aplicação obtém os tokens a partir de um serviço de token com tecnologia do MSI em vez de a partir do Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="f3295-111">The app gets tokens from a token service powered by MSI instead of from Azure Active Directory.</span></span>
+      isCorrect: true
+      correctExplanation: <span data-ttu-id="f3295-112">O serviço de token do MSI obtém tokens do Azure Active Directory em nome da aplicação e permite à aplicação autenticar com um segredo injetado nas suas variáveis de ambiente.</span><span class="sxs-lookup"><span data-stu-id="f3295-112">The MSI token service gets tokens from Azure Active Directory on behalf of your app, and allows your app to authenticate with a secret injected into its envirionment variables.</span></span>
+    - content: <span data-ttu-id="f3295-113">As identidades MSI são geridas pelo Key Vault e são reconhecidas e autenticadas automaticamente.</span><span class="sxs-lookup"><span data-stu-id="f3295-113">MSI identities are managed by Key Vault and are recognized and authenticated automatically.</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="f3295-114">O Key Vault não controla nem gere identidades.</span><span class="sxs-lookup"><span data-stu-id="f3295-114">Key Vault does not control or manage identities.</span></span> <span data-ttu-id="f3295-115">As identidades existem no Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="f3295-115">Identities exist within Azure Active Directory.</span></span>
+  - content: <span data-ttu-id="f3295-116">Qual destas afirmações descreve uma das principais vantagens em utilizar o MSI para autenticar uma aplicação para o Key Vault?</span><span class="sxs-lookup"><span data-stu-id="f3295-116">Which one of these statements describes a primary benefit of using MSI to authenticate an app to Key Vault?</span></span>
+    choices:
+    - content: <span data-ttu-id="f3295-117">O MSI melhora o desempenho das aplicações.</span><span class="sxs-lookup"><span data-stu-id="f3295-117">MSI improves application performance.</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="f3295-118">O MSI não tem efeito no desempenho da sua aplicação.</span><span class="sxs-lookup"><span data-stu-id="f3295-118">MSI has no effect on your application's performance.</span></span>
+    - content: <span data-ttu-id="f3295-119">O MSI elimina a necessidade de processar segredos na configuração.</span><span class="sxs-lookup"><span data-stu-id="f3295-119">MSI eliminates the need to handle secrets in configuration.</span></span>
+      isCorrect: true
+      correctExplanation: <span data-ttu-id="f3295-120">A aplicação autentica para o serviço de token do MSI com um segredo injetado nas suas variáveis de ambiente no runtime, eliminando a necessidade de armazenar segredos na configuração.</span><span class="sxs-lookup"><span data-stu-id="f3295-120">Your app authenticates to the MSI token service with a secret injected into its environment variables at runtime, eliminating the need to store secrets in configuration.</span></span>
+    - content: <span data-ttu-id="f3295-121">As identidades MSI recebem permissões para o Key Vault automaticamente.</span><span class="sxs-lookup"><span data-stu-id="f3295-121">MSI identities are automatically granted Key Vault permissions.</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="f3295-122">Todas as identidades, incluindo as identidades do MSI, devem receber permissões explícitas num cofre.</span><span class="sxs-lookup"><span data-stu-id="f3295-122">All identities, including MSI identities, must be explicitly granted permissions within a vault.</span></span>
+    - content: <span data-ttu-id="f3295-123">O MSI torna mais fácil selecionar palavras-passe para serviços remotos.</span><span class="sxs-lookup"><span data-stu-id="f3295-123">MSI makes it easier to choose passwords for remote services.</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="f3295-124">O MSI não tem efeito nos seus segredos ou fluxos de trabalho de autenticação com serviços remotos.</span><span class="sxs-lookup"><span data-stu-id="f3295-124">MSI has no effect on your secrets or authentication workflows with remote services.</span></span> <span data-ttu-id="f3295-125">O MSI só influencia a forma como a aplicação efetua a autenticação para o Key Vault.</span><span class="sxs-lookup"><span data-stu-id="f3295-125">MSI only impacts how your app authenticates to Key Vault.</span></span>

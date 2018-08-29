@@ -1,0 +1,28 @@
+### YamlMime:Module
+uid: learn.sample-module-cloudshell
+metadata:
+  title: Módulo de exemplo com o CloudShell
+  description: Descrição do título do módulo de exemplo
+  ms.openlocfilehash: 590f3fe8c531c337cb01dccdebb342635de06568
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40442922"
+title: Módulo de exemplo com o CloudShell
+summary: Este é o resumo do módulo de exemplo
+abstract: Esta é a síntese do módulo de exemplo
+cardDescription: Esta é a descrição do cartão do módulo de exemplo
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- intermediate
+roles:
+- developer
+products:
+- Azure
+units:
+- learn.sample-module-cloudshell.1-unit-text-only
+- learn.sample-module-cloudshell.2-unit-text-and-knowledge-check
+- learn.sample-module-cloudshell.3-unit-knowledge-check-only
+- learn.sample-module-cloudshell.4-unit-cloudshell-lab
+achievement: learn.sample-module-cloudshell.badge
