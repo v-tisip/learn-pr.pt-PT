@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.6-call-the-mobile-backend
+title: Chamar a função a partir da aplicação móvel
+metadata:
+  title: Chamar a função a partir da aplicação móvel
+  description: Chamar a função a partir da aplicação móvel, passando a localização do utilizador e uma lista de números de telefone
+  ms.openlocfilehash: be1b0663cc5de6c2cbaa252f2a1a06e80a485569
+  ms.sourcegitcommit: d40bff88f60d5ddb3d875f788cafdd0c40069f23
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "42614459"
+durationInMinutes: 7
+content: '[!include[](includes/6-call-the-mobile-backend.md)]'

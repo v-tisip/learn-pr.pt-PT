@@ -1,0 +1,43 @@
+### YamlMime:ModuleUnit
+uid: learn.predict-costs-and-optimize-spending.4-save-on-infrastructure-costs
+title: Poupar nos custos de infraestrutura
+metadata:
+  title: Poupar nos custos de infraestrutura
+  description: Nesta unidade, vamos abordar como poupar nos custos de infraestrutura
+  ms.openlocfilehash: ea6ad618f98c79c33bf6c0c04b2cd71fdb00fa21
+  ms.sourcegitcommit: d40bff88f60d5ddb3d875f788cafdd0c40069f23
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "42614826"
+durationInMinutes: 10
+content: >
+  [!include[](includes/4-save-on-infrastructure-costs.md)]
+quiz:
+  title: Poupar nos custos de infraestrutura
+  questions:
+  - content: Qual destas <b>não</b> é uma solução de economia de custos?
+    choices:
+    - content: Desalocar as máquinas virtuais durante as horas de inatividade.
+      incorrectExplanation: Com o Azure Reserved Virtual Machine Instances, a desalocação de máquinas virtuais durante as horas de inatividade, o dimensionamento adequado das máquinas virtuais subutilizadas, a eliminação de máquinas virtuais não utilizadas e a migração para o PaaS ou SaaS são todos exemplos de soluções de economia de custos.
+      isCorrect: false
+    - content: Utilizar o Azure Reserved Virtual Machine Instances.
+      incorrectExplanation: Com o Azure Reserved Virtual Machine Instances, a desalocação de máquinas virtuais durante as horas de inatividade, o dimensionamento adequado das máquinas virtuais subutilizadas, a eliminação de máquinas virtuais não utilizadas e a migração para o PaaS ou SaaS são todos exemplos de soluções de economia de custos.
+      isCorrect: false
+    - content: Utilizar o balanceamento de carga das máquinas virtuais para as mensagens recebidas.
+      correctExplanation: O balanceamento de carga é utilizado para a otimização do desempenho. Com o Azure Reserved Virtual Machine Instances, a desalocação de máquinas virtuais durante as horas de inatividade, o dimensionamento adequado das máquinas virtuais subutilizadas, a eliminação de máquinas virtuais não utilizadas e a migração para o PaaS ou SaaS são todos exemplos de soluções de economia de custos.
+      isCorrect: true
+    - content: Utilizar o dimensionamento adequado das máquinas virtuais subutilizadas.
+      incorrectExplanation: Com o Azure Reserved Virtual Machine Instances, a desalocação de máquinas virtuais durante as horas de inatividade, o dimensionamento adequado das máquinas virtuais subutilizadas, a eliminação de máquinas virtuais não utilizadas e a migração para o PaaS ou SaaS são todos exemplos de soluções de economia de custos.
+      isCorrect: false
+  - content: 'O Centro de Arquitetura do Azure é ________:'
+    choices:
+    - content: Um ótimo lugar para encontrar ideias para transformar a aplicação, bem como as melhores práticas numa vasta gama de arquiteturas e serviços do Azure.
+      correctExplanation: O Centro de Arquitetura do Azure apresentará sugestões sobre formas de melhorar a aplicação e poupar dinheiro.
+      isCorrect: true
+    - content: Um edifício no campus da Microsoft Seattle, onde pode falar sobre a infraestrutura.
+      incorrectExplanation: O Centro de Arquitetura do Azure é um produto de software integrado no Azure que apresenta sugestões para melhorar a aplicação.
+      isCorrect: false
+    - content: Um museu baseado na cloud em homenagem a Frank Lloyd Wright.
+      incorrectExplanation: O Centro de Arquitetura do Azure é um produto de software integrado no Azure que apresenta sugestões para melhorar a aplicação.
+      isCorrect: false

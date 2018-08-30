@@ -1,0 +1,1 @@
+Para relembrar o que aprendeu, veja estes dois cenários com a equipa de astronomia e responda às perguntas associadas.
