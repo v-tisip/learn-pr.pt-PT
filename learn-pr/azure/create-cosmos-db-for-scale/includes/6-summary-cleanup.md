@@ -1,0 +1,18 @@
+<span data-ttu-id="12b77-101">Este módulo mostrou como criar uma conta do Azure Cosmos DB que pode utilizar para cenários reais, como aplicações de retalho online.</span><span class="sxs-lookup"><span data-stu-id="12b77-101">This module has shown you how to create an Azure Cosmos DB account that you can use for real-world scenarios like online retail apps.</span></span> <span data-ttu-id="12b77-102">Ao criar uma base de dados com uma chave de partição inteligente, poderá dimensionar horizontalmente à medida que aumenta a necessidade de armazenamento de dados.</span><span class="sxs-lookup"><span data-stu-id="12b77-102">By creating a database with a smart partition key, you'll be able to scale horizontally as your need for data storage grows.</span></span> <span data-ttu-id="12b77-103">Ficou também a conhecer as necessidades da unidade de pedido para a sua aplicação e como configurá-las durante a criação da conta para que possa aumentar o débito mais tarde, quando aumentar a exigência do utilizador.</span><span class="sxs-lookup"><span data-stu-id="12b77-103">You've also learned about request unit needs for your application, and how to set them during account creation so that you can scale up your throughput later, when user demand increases.</span></span>
+
+## <a name="cleanup"></a><span data-ttu-id="12b77-104">Limpeza</span><span class="sxs-lookup"><span data-stu-id="12b77-104">Cleanup</span></span>
+
+<span data-ttu-id="12b77-105">Se planear continuar a trabalhar nos módulos neste percurso de aprendizagem, ignore o processo de limpeza.</span><span class="sxs-lookup"><span data-stu-id="12b77-105">If you plan to continue working on the modules in this learning path, skip the cleanup process.</span></span> <span data-ttu-id="12b77-106">Caso contrário, utilize os seguintes passos para eliminar os recursos para evitar incorrer em custos de utilização do serviço:</span><span class="sxs-lookup"><span data-stu-id="12b77-106">Otherwise, use the following steps to delete your resources to avoid incurring charges for use of the service:</span></span>
+
+1. <span data-ttu-id="12b77-107">No portal do Azure, selecione **Grupos de recursos** à esquerda e, em seguida, selecione o grupo de recursos que criou.</span><span class="sxs-lookup"><span data-stu-id="12b77-107">In the Azure portal, select **Resource groups** on the far left, and then select the resource group you created.</span></span>  
+
+    <span data-ttu-id="12b77-108">Se o menu à esquerda estiver fechado, clique no</span><span class="sxs-lookup"><span data-stu-id="12b77-108">If the left menu is collapsed, click</span></span> ![botão Expandir](../media/5-create-a-database-and-collection/expand.png) <span data-ttu-id="12b77-110">para expandi-lo.</span><span class="sxs-lookup"><span data-stu-id="12b77-110">to expand it.</span></span>
+
+   ![Métricas no portal do Azure](../media/5-create-a-database-and-collection/delete-resources-select.png)
+
+2. <span data-ttu-id="12b77-112">Na nova janela, selecione o grupo de recursos e, em seguida, clique em **Eliminar grupo de recursos**.</span><span class="sxs-lookup"><span data-stu-id="12b77-112">In the new window, select the resource group, and then click **Delete resource group**.</span></span>
+
+   ![Métricas no portal do Azure](../media/5-create-a-database-and-collection/delete-resources.png)
+
+3. <span data-ttu-id="12b77-114">Na nova janela, escreva o nome do grupo de recursos a eliminar e, em seguida, clique em **Eliminar**.</span><span class="sxs-lookup"><span data-stu-id="12b77-114">In the new window, type the name of the resource group to delete, and then click **Delete**.</span></span>
+

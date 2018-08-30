@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-performance-and-scalability.1-introduction
+title: <span data-ttu-id="8e34b-101">Introdução</span><span class="sxs-lookup"><span data-stu-id="8e34b-101">Introduction</span></span>
+metadata:
+  title: <span data-ttu-id="8e34b-102">Introdução</span><span class="sxs-lookup"><span data-stu-id="8e34b-102">Introduction</span></span>
+  description: <span data-ttu-id="8e34b-103">Introdução</span><span class="sxs-lookup"><span data-stu-id="8e34b-103">Introduction</span></span>
+  ms.openlocfilehash: 15703b2c47dad65cfdf4ff672122ba9fb347eadf
+  ms.sourcegitcommit: 926510a198d738c5726081f6d7994fe9b6fc6edb
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 08/29/2018
+  ms.locfileid: "43180438"
+durationInMinutes: 1
+content: '[!include[](includes/1-introduction.md)]'
