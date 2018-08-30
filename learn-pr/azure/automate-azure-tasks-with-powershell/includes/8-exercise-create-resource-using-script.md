@@ -44,7 +44,7 @@ Siga estes passos para escrever o script:
 7. Em seguida, crie uma VM com a variável `$vmName`:
 
    ```powershell
-   New-AzureRmVm -ResourceGroupName $resourceGroup -Name $vmName -Credential $adminCredential -Location "East US" 
+   New-AzureRmVm -ResourceGroupName $resourceGroup -Name $vmName -Credential $adminCredential -Location "East US" -Image UbuntuLTS
    ```
 
 8. Guarde o ficheiro.

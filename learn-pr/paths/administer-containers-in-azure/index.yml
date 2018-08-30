@@ -2,24 +2,23 @@
 uid: learn.administer-containers-in-azure
 title: Administrar contentores no Azure
 summary: O Azure Container Instances é a forma mais rápida e fácil de executar contentores no Azure. Este percurso de aprendizagem irá ensiná-lo a criar e gerir os seus contentores e como o ACI pode ser utilizado para fornecer dimensionamento flexível para o Kubernetes.
-cardDescription: O Azure Container Instances é a forma mais rápida e fácil de executar contentores no Azure. Este percurso de aprendizagem irá ensiná-lo a criar e gerir os seus contentores e como o ACI pode ser utilizado para fornecer dimensionamento flexível para o Kubernetes.
+prerequisites: Nenhuma
 iconUrl: http://via.placeholder.com/120x120
 levels:
 - beginner
 roles:
-- developer
+- administrator
 products:
-- Azure
-prerequisites: Nenhuma
+- azure
 metadata:
   title: Administrar contentores no Azure
   description: O Azure Container Instances é a forma mais rápida e fácil de executar contentores no Azure. Este percurso de aprendizagem irá ensiná-lo a criar e gerir os seus contentores e como o ACI pode ser utilizado para fornecer dimensionamento flexível para o Kubernetes.
-  ms.openlocfilehash: 753fe61e57393a51f6a7e0031ce251390c6ceef7
-  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.openlocfilehash: 3d42c9c2dab00f374ac5effe60fb9af525ebd6ee
+  ms.sourcegitcommit: cac22638c8487b2a9e567262aee73616ff0035e9
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 08/22/2018
-  ms.locfileid: "40447693"
+  ms.lasthandoff: 08/24/2018
+  ms.locfileid: "42910615"
 modules:
 - learn.sample-module-cloudshell
 achievement: learn.administer-containers-in-azure.trophy
