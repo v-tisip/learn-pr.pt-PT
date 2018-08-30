@@ -1,0 +1,72 @@
+<span data-ttu-id="855b5-101">As máquinas virtuais têm de ser dimensionadas de forma adequada para o trabalho esperado.</span><span class="sxs-lookup"><span data-stu-id="855b5-101">Virtual machines must be sized appropriately for the expected work.</span></span> <span data-ttu-id="855b5-102">Uma VM sem a quantidade correta de memória ou de CPU falhará quando em carga ou será executada muito lentamente para ser eficiente.</span><span class="sxs-lookup"><span data-stu-id="855b5-102">A VM without the correct amount of memory or CPU will fail under load, or run too slowly to be effective.</span></span> 
+
+<span data-ttu-id="855b5-103">Quando cria uma máquina virtual, pode indicar um valor de _tamanho da VM_ para determinar a quantidade de recursos de computação que será dedicada à VM.</span><span class="sxs-lookup"><span data-stu-id="855b5-103">When you create a virtual machine, you can supply a _VM size_ value that will determine the amount of compute resources that will be devoted to the VM.</span></span> <span data-ttu-id="855b5-104">Tal inclui a CPU, a GPU e a memória que ficam disponíveis para a máquina virtual do Azure.</span><span class="sxs-lookup"><span data-stu-id="855b5-104">This includes CPU, GPU, and memory that are made available to the virtual machine from Azure.</span></span>
+
+<span data-ttu-id="855b5-105">O Azure define um conjunto de [tamanhos predefinidos de VM](https://docs.microsoft.com/azure/virtual-machines/linux/sizes) para o Linux e o Windows escolherem com base na utilização esperada.</span><span class="sxs-lookup"><span data-stu-id="855b5-105">Azure defines a set of [pre-defined VM sizes](https://docs.microsoft.com/azure/virtual-machines/linux/sizes) for Linux and Windows to choose from based on the expected usage.</span></span> 
+
+| <span data-ttu-id="855b5-106">Tipo</span><span class="sxs-lookup"><span data-stu-id="855b5-106">Type</span></span> | <span data-ttu-id="855b5-107">Tamanhos</span><span class="sxs-lookup"><span data-stu-id="855b5-107">Sizes</span></span> | <span data-ttu-id="855b5-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="855b5-108">Description</span></span> |
+|------|-------|-------------|
+| <span data-ttu-id="855b5-109">Fins gerais</span><span class="sxs-lookup"><span data-stu-id="855b5-109">General purpose</span></span>   | <span data-ttu-id="855b5-110">Dsv3, Dv3, DSv2, Dv2, DS, D, Av2, A0-7</span><span class="sxs-lookup"><span data-stu-id="855b5-110">Dsv3, Dv3, DSv2, Dv2, DS, D, Av2, A0-7</span></span> | <span data-ttu-id="855b5-111">CPU-para-memória equilibrada.</span><span class="sxs-lookup"><span data-stu-id="855b5-111">Balanced CPU-to-memory.</span></span> <span data-ttu-id="855b5-112">Ideal para desenvolvimento/teste e aplicações e soluções de dados pequenas a médias.</span><span class="sxs-lookup"><span data-stu-id="855b5-112">Ideal for dev/test and small to medium applications and data solutions.</span></span> |
+| <span data-ttu-id="855b5-113">Com otimização de computação</span><span class="sxs-lookup"><span data-stu-id="855b5-113">Compute optimized</span></span> | <span data-ttu-id="855b5-114">Fs, F</span><span class="sxs-lookup"><span data-stu-id="855b5-114">Fs, F</span></span> | <span data-ttu-id="855b5-115">CPU-para-memória elevada.</span><span class="sxs-lookup"><span data-stu-id="855b5-115">High CPU-to-memory.</span></span> <span data-ttu-id="855b5-116">Adequada para aplicações de tráfego médio, dispositivos de rede e processos em lote.</span><span class="sxs-lookup"><span data-stu-id="855b5-116">Good for medium-traffic applications, network appliances, and batch processes.</span></span> |
+| <span data-ttu-id="855b5-117">Com otimização de memória</span><span class="sxs-lookup"><span data-stu-id="855b5-117">Memory optimized</span></span>  | <span data-ttu-id="855b5-118">Esv3, Ev3, M, GS, G, DSv2, DS, Dv2, D</span><span class="sxs-lookup"><span data-stu-id="855b5-118">Esv3, Ev3, M, GS, G, DSv2, DS, Dv2, D</span></span>   | <span data-ttu-id="855b5-119">Memória-para-núcleo elevada.</span><span class="sxs-lookup"><span data-stu-id="855b5-119">High memory-to-core.</span></span> <span data-ttu-id="855b5-120">É ideal para bases de dados relacionais, caches médias a grandes e análise dentro da memória.</span><span class="sxs-lookup"><span data-stu-id="855b5-120">Great for relational databases, medium to large caches, and in-memory analytics.</span></span> |
+| <span data-ttu-id="855b5-121">Com otimização de armazenamento</span><span class="sxs-lookup"><span data-stu-id="855b5-121">Storage optimized</span></span> | <span data-ttu-id="855b5-122">Ls</span><span class="sxs-lookup"><span data-stu-id="855b5-122">Ls</span></span> | <span data-ttu-id="855b5-123">Débito e E/S de disco elevados.</span><span class="sxs-lookup"><span data-stu-id="855b5-123">High disk throughput and IO.</span></span> <span data-ttu-id="855b5-124">Ideal para bases de dados de macrodados, SQL e NoSQL.</span><span class="sxs-lookup"><span data-stu-id="855b5-124">Ideal for big data, SQL, and NoSQL databases.</span></span> |
+| <span data-ttu-id="855b5-125">Com otimização de GPU</span><span class="sxs-lookup"><span data-stu-id="855b5-125">GPU optimized</span></span> | <span data-ttu-id="855b5-126">NV, NC</span><span class="sxs-lookup"><span data-stu-id="855b5-126">NV, NC</span></span> | <span data-ttu-id="855b5-127">VMs especializadas destinadas a composição gráfica e edição de vídeo exigentes.</span><span class="sxs-lookup"><span data-stu-id="855b5-127">Specialized VMs targeted for heavy graphic rendering and video editing.</span></span> |
+| <span data-ttu-id="855b5-128">Elevado desempenho</span><span class="sxs-lookup"><span data-stu-id="855b5-128">High performance</span></span> | <span data-ttu-id="855b5-129">H, A8-11</span><span class="sxs-lookup"><span data-stu-id="855b5-129">H, A8-11</span></span> | <span data-ttu-id="855b5-130">As nossas mais poderosas VMs com CPU, com interfaces de rede de alto débito (RDMA) opcionais.</span><span class="sxs-lookup"><span data-stu-id="855b5-130">Our most powerful CPU VMs with optional high-throughput network interfaces (RDMA).</span></span> | 
+
+<span data-ttu-id="855b5-131">A alteração de tamanhos disponíveis com base na região em que está a criar a VM.</span><span class="sxs-lookup"><span data-stu-id="855b5-131">The available sizes change based on the region you're creating the VM in.</span></span> <span data-ttu-id="855b5-132">Pode obter uma lista dos tamanhos disponíveis com o comando `vm list-sizes`.</span><span class="sxs-lookup"><span data-stu-id="855b5-132">You can get a list of the available sizes using the `vm list-sizes` command.</span></span> <span data-ttu-id="855b5-133">Tente digitá-lo no Azure Cloud Shell:</span><span class="sxs-lookup"><span data-stu-id="855b5-133">Try typing this into Azure Cloud Shell:</span></span>
+
+```azurecli
+az vm list-sizes --location eastus --output table
+```
+
+<span data-ttu-id="855b5-134">Esta é uma resposta abreviada para `eastus`:</span><span class="sxs-lookup"><span data-stu-id="855b5-134">Here's an abbreviated response for `eastus`:</span></span>
+
+```
+  MaxDataDiskCount    MemoryInMb  Name                      NumberOfCores    OsDiskSizeInMb    ResourceDiskSizeInMb
+------------------  ------------  ----------------------  ---------------  ----------------  ----------------------
+                 2          2048  Standard_B1ms                         1           1047552                    4096
+                 2          1024  Standard_B1s                          1           1047552                    2048
+                 4          8192  Standard_B2ms                         2           1047552                   16384
+                 4          4096  Standard_B2s                          2           1047552                    8192
+                 8         16384  Standard_B4ms                         4           1047552                   32768
+                16         32768  Standard_B8ms                         8           1047552                   65536
+                 4          3584  Standard_DS1_v2                       1           1047552                    7168
+                 8          7168  Standard_DS2_v2                       2           1047552                   14336
+                16         14336  Standard_DS3_v2                       4           1047552                   28672
+                32         28672  Standard_DS4_v2                       8           1047552                   57344
+                64         57344  Standard_DS5_v2                      16           1047552                  114688
+        ....
+                64       3891200  Standard_M128-32ms                  128           1047552                 4096000
+                64       3891200  Standard_M128-64ms                  128           1047552                 4096000
+                64       3891200  Standard_M128ms                     128           1047552                 4096000
+                64       2048000  Standard_M128s                      128           1047552                 4096000
+                64       1024000  Standard_M64                         64           1047552                 8192000
+                64       1792000  Standard_M64m                        64           1047552                 8192000
+                64       2048000  Standard_M128                       128           1047552                16384000
+                64       3891200  Standard_M128m                      128           1047552                16384000
+```
+
+<span data-ttu-id="855b5-135">Não especificámos um tamanho quando criámos a nossa VM, pelo que o Azure selecionou um tamanho para fins gerais predefinido de `Standard_DS1_v2`.</span><span class="sxs-lookup"><span data-stu-id="855b5-135">We didn't specify a size when we created our VM - so Azure selected a default general-purpose size for us of `Standard_DS1_v2`.</span></span> <span data-ttu-id="855b5-136">No entanto, podemos especificar o tamanho como parte do comando `vm create` com o parâmetro `--size`.</span><span class="sxs-lookup"><span data-stu-id="855b5-136">However, we can specify the size as part of the `vm create` command using the `--size` parameter.</span></span>
+
+```azurecli
+az vm create --resource-group ExerciseResources --name SampleVM \
+  --image Debian --admin-username aldis --generate-ssh-keys --verbose \
+  --size "Standard_DS5_v2"
+```
+
+## <a name="resizing-an-existing-vm"></a><span data-ttu-id="855b5-137">Redimensionar uma VM existente</span><span class="sxs-lookup"><span data-stu-id="855b5-137">Resizing an existing VM</span></span>
+<span data-ttu-id="855b5-138">Também poderemos redimensionar uma VM existente se a carga de trabalho for alterada ou se tiver sido dimensionada incorretamente durante a criação.</span><span class="sxs-lookup"><span data-stu-id="855b5-138">We can also resize an existing VM if the workload changes, or if it was incorrectly sized at creation.</span></span> <span data-ttu-id="855b5-139">Antes de pedirmos um redimensionamento, devemos verificar se o tamanho desejado está disponível no cluster de que faz parte a VM.</span><span class="sxs-lookup"><span data-stu-id="855b5-139">Before a resize is requested, we must check to see if the desired size is available in the cluster our VM is part of.</span></span> <span data-ttu-id="855b5-140">Podemos fazer isto com o comando `vm list-vm-resize-options`:</span><span class="sxs-lookup"><span data-stu-id="855b5-140">We can do this with the `vm list-vm-resize-options` command:</span></span>
+
+```azurecli
+az vm list-vm-resize-options --resource-group ExerciseResources --name SampleVM --output table
+```
+
+<span data-ttu-id="855b5-141">Esta ação devolverá uma lista de todas as configurações de tamanho possíveis disponíveis no grupo de recursos.</span><span class="sxs-lookup"><span data-stu-id="855b5-141">This will return a list of all the possible size configurations available in the resource group.</span></span> <span data-ttu-id="855b5-142">Se o tamanho que queremos não estiver disponível no nosso cluster, mas _estiver_ disponível na região, poderemos [desalocar a VM](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-deallocate).</span><span class="sxs-lookup"><span data-stu-id="855b5-142">If the size we want isn't available in our cluster, but _is_ available in the region, we can [deallocate the VM](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-deallocate).</span></span> <span data-ttu-id="855b5-143">Este comando para a VM em execução e remova-a do cluster atual sem perder quaisquer recursos.</span><span class="sxs-lookup"><span data-stu-id="855b5-143">This command will stop the running VM and remove it from the current cluster without losing any resources.</span></span> <span data-ttu-id="855b5-144">Em seguida, podemos redimensioná-la, o que voltará a criar a VM num novo cluster onde a configuração de tamanho esteja disponível.</span><span class="sxs-lookup"><span data-stu-id="855b5-144">Then we can resize it, which will re-create the VM in a new cluster where the size configuration is available.</span></span>
+
+<span data-ttu-id="855b5-145">Para redimensionar uma VM, usamos o comando `vm resize`.</span><span class="sxs-lookup"><span data-stu-id="855b5-145">To resize a VM, we use the `vm resize` command.</span></span> <span data-ttu-id="855b5-146">Por exemplo, vamos reduzir os nossos recursos de VM atuais para o mínimo: 2 G de memória, 1 núcleo de CPU e 4 G de espaço em disco.</span><span class="sxs-lookup"><span data-stu-id="855b5-146">For example, let's reduce our current VM resources to the bare minimum: 2G of memory, 1 CPU core, and 4G of disk space.</span></span> <span data-ttu-id="855b5-147">Escreva este comando no Cloud Shell:</span><span class="sxs-lookup"><span data-stu-id="855b5-147">Type this command in Cloud Shell:</span></span>
+
+```azurecli
+az vm resize --resource-group ExerciseResources --name SampleVM --size "Standard_B1ms"
+```
+
+<span data-ttu-id="855b5-148">Este comando demorará alguns minutos a reduzir os recursos da VM e, uma vez concluído, devolverá uma nova configuração de JSON.</span><span class="sxs-lookup"><span data-stu-id="855b5-148">This command will take a few minutes to reduce the resources of the VM, and once it's done, it will return a new JSON configuration.</span></span>

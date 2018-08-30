@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn.create-a-windows-vm-in-azure
+metadata:
+  title: Criar uma máquina virtual do Windows no Azure
+  description: >
+    As máquinas virtuais (VMs) do Windows permitem-lhe criar recursos de computação dedicados no Microsoft Azure, em minutos, que podem ser utilizados como um servidor ou um ambiente de trabalho físico. Em seguida, pode utilizar o protocolo RDP (Remote Desktop Protocol) para se ligar à interface de utilizador. Se a máquina virtual for um servidor ao qual se liga para fins de administração ou uma estação de trabalho virtual para um utilizador final, o RDP proporcionará a mesma experiência do que estar sentado no terminal de um computador físico local.
+
+
+    Neste curso, vai aprender a criar uma VM do Windows através do portal do Azure. Em seguida, vai se ligar à VM através do protocolo RDP (Remote Desktop Protocol) e utilizar o ambiente de trabalho do Windows. Também vai utilizar o portal para modificar o tamanho e as capacidades de rede da VM.
+  ms.openlocfilehash: 737fb065fc9fe640b6cfc5f11a5b9458a00b8d47
+  ms.sourcegitcommit: d40bff88f60d5ddb3d875f788cafdd0c40069f23
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "42615651"
+title: Criar uma máquina virtual do Windows no Azure
+summary: Neste módulo, vai aprender como criar uma máquina virtual do Windows no Azure e, em seguida, como aceder a essa máquina virtual através de uma ligação de Ambiente de Trabalho Remoto. Por fim, vai aprender a utilizar o portal para modificar a configuração de hardware virtual da VM.
+abstract: >
+  As máquinas virtuais (VMs) do Windows permitem-lhe criar recursos de computação dedicados no Microsoft Azure, em minutos, que podem ser utilizados como um servidor ou um ambiente de trabalho físico. Em seguida, pode utilizar o protocolo RDP (Remote Desktop Protocol) para se ligar à interface de utilizador. Se a máquina virtual for um servidor ao qual se liga para fins de administração ou uma estação de trabalho virtual para um utilizador final, o RDP proporcionará a mesma experiência do que estar sentado no terminal de um computador físico local.
+
+
+  Neste curso, vai aprender a criar uma VM do Windows através do portal do Azure. Em seguida, vai se ligar à VM através do protocolo RDP (Remote Desktop Protocol) e utilizar o ambiente de trabalho do Windows. Também vai utilizar o portal para modificar o tamanho e as capacidades de rede da VM.
+cardDescription: Neste módulo, vai aprender como criar uma máquina virtual do Windows no Azure e, em seguida, como aceder a essa máquina virtual através de uma ligação de Ambiente de Trabalho Remoto. Por fim, vai aprender a utilizar o portal para modificar a configuração de hardware virtual da VM.
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- intermediate
+roles:
+- developer
+products:
+- Azure
+units:
+- learn.create-a-windows-vm-in-azure.1-introduction
+- learn.create-a-windows-vm-in-azure.2-create-a-windows-virtual-machine
+- learn.create-a-windows-vm-in-azure.3-exercise-create-a-vm
+- learn.create-a-windows-vm-in-azure.4-connect-to-a-windows-virtual-machine
+- learn.create-a-windows-vm-in-azure.5-exercise-connect-to-a-windows-vm-using-rdp
+- learn.create-a-windows-vm-in-azure.6-summary
+achievement: learn.create-a-windows-vm-in-azure.badge

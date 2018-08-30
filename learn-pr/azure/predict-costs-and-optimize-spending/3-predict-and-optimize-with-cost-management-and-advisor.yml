@@ -1,0 +1,34 @@
+### YamlMime:ModuleUnit
+uid: learn.predict-costs-and-optimize-spending.3-predict-and-optimize-with-cost-management-and-advisor
+title: <span data-ttu-id="b8d69-101">Prever e otimizar com o Cost Management e o Assistente do Azure</span><span class="sxs-lookup"><span data-stu-id="b8d69-101">Predict and optimize with Cost Management and Azure Advisor</span></span>
+metadata:
+  title: <span data-ttu-id="b8d69-102">Prever e otimizar com o Cost Management e o Assistente do Azure</span><span class="sxs-lookup"><span data-stu-id="b8d69-102">Predict and optimize with Cost Management and Azure Advisor</span></span>
+  description: <span data-ttu-id="b8d69-103">Nesta unidade, vamos abordar como prever e otimizar com o Cost Management e o Assistente do Azure</span><span class="sxs-lookup"><span data-stu-id="b8d69-103">In this unit, we'll discuss how to predict and optimize with Cost Management and Azure Advisor</span></span>
+  ms.openlocfilehash: 88e546cd9c7f44f147406d8d0e4f895b491f7818
+  ms.sourcegitcommit: d40bff88f60d5ddb3d875f788cafdd0c40069f23
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "42615875"
+durationInMinutes: 10
+content: >
+  [!include[](includes/3-predict-and-optimize-with-cost-management-and-advisor.md)]
+quiz:
+  title: <span data-ttu-id="b8d69-104">Prever e otimizar com o Cost Management e o Assistente do Azure</span><span class="sxs-lookup"><span data-stu-id="b8d69-104">Predict and optimize with Cost Management and Azure Advisor</span></span>
+  questions:
+  - content: <span data-ttu-id="b8d69-105">O Assistente do Azure oferece recomendações apenas sobre os custos.</span><span class="sxs-lookup"><span data-stu-id="b8d69-105">Azure Advisor provides recommendations on cost only.</span></span>
+    choices:
+    - content: <span data-ttu-id="b8d69-106">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="b8d69-106">True</span></span>
+      incorrectExplanation: <span data-ttu-id="b8d69-107">O Assistente do Azure oferece recomendações sobre elevada disponibilidade, segurança, desempenho e custos.</span><span class="sxs-lookup"><span data-stu-id="b8d69-107">Azure Advisor provides recommendations on high availability, security, performance, and cost.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="b8d69-108">Falso</span><span class="sxs-lookup"><span data-stu-id="b8d69-108">False</span></span>
+      correctExplanation: <span data-ttu-id="b8d69-109">O Assistente do Azure oferece recomendações sobre elevada disponibilidade, segurança, desempenho e custos.</span><span class="sxs-lookup"><span data-stu-id="b8d69-109">Azure Advisor provides recommendations on high availability, security, performance, and cost.</span></span>
+      isCorrect: true
+  - content: <span data-ttu-id="b8d69-110">O Azure Cost Management permite-lhe _________:</span><span class="sxs-lookup"><span data-stu-id="b8d69-110">Azure Cost Management allows you to _________:</span></span>
+    choices:
+    - content: <span data-ttu-id="b8d69-111">Ver o histórico das discriminações dos serviços onde está a gastar o dinheiro.</span><span class="sxs-lookup"><span data-stu-id="b8d69-111">See historical breakdowns of what services you are spending your money on.</span></span>
+      correctExplanation: <span data-ttu-id="b8d69-112">O Cost Management analisa onde está a gastar, historicamente, o dinheiro e pode controlar isso com base nos orçamentos definidos.</span><span class="sxs-lookup"><span data-stu-id="b8d69-112">Cost Management analyzes where you are historically spending your money and can track it against budgets you have set.</span></span>
+      isCorrect: true
+    - content: <span data-ttu-id="b8d69-113">Ver estimativas do que os serviços poderão custar se fizer uma alteração.</span><span class="sxs-lookup"><span data-stu-id="b8d69-113">See estimates of what your services might cost if you make a change.</span></span>
+      incorrectExplanation: <span data-ttu-id="b8d69-114">Para ver uma estimativa dos custos, deverá utilizar a calculadora de preços do Azure.</span><span class="sxs-lookup"><span data-stu-id="b8d69-114">To see cost estimates, you use the Azure pricing calculator.</span></span> <span data-ttu-id="b8d69-115">O Cost Management analisa onde está a gastar, historicamente, o dinheiro e pode controlar isso com base nos orçamentos definidos.</span><span class="sxs-lookup"><span data-stu-id="b8d69-115">Cost Management analyzes where you are historically spending your money and can track it against budgets you have set.</span></span>
+      isCorrect: false
